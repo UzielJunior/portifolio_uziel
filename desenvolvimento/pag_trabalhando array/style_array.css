@@ -1,0 +1,60 @@
+
+
+:root 
+{
+    --bod: #222327;
+    
+    --backCard: linear-gradient(336.85deg, #af43b4 12.26%, rgba(50, 194, 230, 0.692) 76.03%); 
+}
+body 
+{  
+    background-color: #222327;
+    font: normal 15pt Arial;
+    color: aliceblue;
+    text-align: center;
+}
+
+header
+{
+    color: aliceblue;
+    text-align: center;
+}
+
+section#card
+{
+    background: var(--backCard);
+    text-align: center;
+    border-radius: 15px ;
+    padding: 8px;
+    width: 400px;
+    height: 420px;
+    box-shadow: 3px 3px 10px rgb(0, 0, 0, 363);
+    margin: auto;
+
+}
+
+input#txtvalor
+{
+    margin-top: 10px;
+}
+
+select
+{
+    margin-top: 10px;
+}
+
+div#resultado
+{
+    margin-left: 0px;
+
+}
+footer
+{
+    text-align: center;
+    font-style: italic;
+    margin-top: 30px;
+}
+
+
+
+

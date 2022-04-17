@@ -1,0 +1,126 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Uziel Portfólio</title>
+
+  <script src="https://kit.fontawesome.com/3fcd0a326c.js" crossorigin="anonymous"></script>
+
+    <!--style referente a estrutura geral para o conteudo do projeto é necessario chamar a  style especifica do projeto-->
+    <link rel="stylesheet" href="../style geral para as paginas/style.css">
+
+    <!--style especifica do projeto-->
+    <link rel="stylesheet" href="contador de passo.css">
+
+</head>
+
+<body>
+  <header class="header">
+    <a class="h1" href="https://uzieljunior.github.io/portifolio_uziel/#projetos"> <h1> @_uziel Moreira</h1> </a>
+
+    <div>
+      <ul class="menu">
+        <li><a href="https://uzieljunior.github.io/portifolio_uziel/#projetos">Projetos</a></li>
+        <li><a href="#redes">Redes Sociais</a></li>
+      </ul>
+    </div>
+
+  </header>
+
+  <main class="container">
+      
+    <nav class="project">
+      <section class="descricao">
+          <h3>Descrição do projeto</h3>
+          <br>
+          <p>
+              Esse projeto permite ao usuario informar o inicio de uma contagem
+              desejada o intervalo entre os termos e o final da contagem.
+          </p>
+      
+      </section>
+      <section class="card_inicial">
+          <div>
+              <p class="txtInicio">Inicio:
+                  <input class="inicio" type="number" name="txtinicio" id="txtinicio" >
+              </p>
+              <p class="txtPasso">Passo:
+                  <input class="passo" type="number" name="txtpasso" id="txtpasso" >
+              </p>
+              <p class="txtFim">Fim:
+                  <input class="fim" type="number" name="txtfim" id="txtfim" >
+              </p>
+              <!--
+                <a class="btnContar" onclick="Contar()">Contar</a>
+                
+              -->
+              <input class="btnContar" type="button" value="Contar" onclick="Contar()">
+
+      </section>
+      <section class="card_res">
+          </div >
+          <p id="res">
+              Preparando a contagem...
+          </p>
+      </section>
+    </nav>
+      
+
+    <div id="redes">
+      <br>
+      <p class="sub">Me siga nas Redes Sociais.</p>
+      <h2 class="sub-titulo">Redes Sociais</h2>
+    </div>
+    <div class="social">
+
+      <div class="social-link">
+        <a href="https://github.com/UzielJunior" target="_blank" rel="external"> <i class="fa-brands fa-github"></i>
+          <br><br>GitHub
+        </a>
+      </div>
+      
+      <div class="social-link">
+        <a href="https://codepen.io/UzielJunior" target="_blank" rel="external"><i class="fa-brands fa-codepen" ></i><br><br> CodePen</a>
+      </div>
+      
+      <div class="social-link">
+        <a href="https://www.linkedin.com/in/uziel-moreira-dos-santos-507634199/" target="_blank" rel="external"><i class="fa-brands fa-linkedin-in" width="50" height="50"></i><br><br>LinkedIn</a>
+      </div>
+
+      <div class="social-link">
+        <a href="https://usielmorreira@gmail.com" target="_blank" rel="external">          
+          <i class="fa-solid fa-envelope" width="50" height="50"></i><br><br>Gmail</a>
+      </div>
+
+      <div class="social-link">
+        <a href="https://wa.me/qr/7PGUIXZP7QFIK1" target="_blank" rel="external">
+          <i class="fa-brands fa-whatsapp" width="50" height="50"></i><br><br>Whatsapp</a>
+      </div>
+
+    </div>
+
+    <div id="back-to-top">
+      <i class="fas fa-arrow-up"></i>
+    </div>
+
+  </main>
+
+  <footer>
+    <p>Desenvolvido por <a href="https://uzieljunior.github.io/portifolio_uziel/#projetos">@uziel.</a><br>® Copyright 2022. Todos os Direitos Reservados.</p>
+  </footer>
+
+  <!--É necessario o script da pagina inicial por ele ser o da interatividade padrao da estrutura da pagina-->
+  <script src="script_paginaInicial.js"></script>
+
+  <!--Aqui e chamado o script do referido projeto-->
+  <script src="script_contador com passo.js"></script>
+
+</body>
+
+</html>

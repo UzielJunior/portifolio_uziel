@@ -1,0 +1,52 @@
+
+
+:root {
+
+    --bod: #222327;
+    --backCardDia: linear-gradient(126.85deg, #e6d111 27.26%, #b7731f 76.03%);
+    --backCardNoite: linear-gradient(336.85deg, #210d47 17.26%, #093347 56.03%);
+    --backCardTarde: linear-gradient(336.85deg, #8d2e2e 17.26%, #c1c139 76.03%); 
+}
+body {  
+
+    background: #222327;
+    font: normal 15pt Arial;
+    
+    text-align: center;
+}
+
+header
+{
+    color: aliceblue;
+    text-align: center;
+}
+
+section
+{
+    text-align: center;
+    border-radius: 15px ;
+    padding: 8px;
+    width: 300px;
+    height: 400px;
+    box-shadow: 3px 3px 10px rgb(0, 0, 0, 363);
+    margin: auto;
+}
+
+footer
+{
+    color: aliceblue;
+    text-align: center;
+    font-style: italic;
+}
+
+div#infoHoras
+{
+    text-align: center;
+}
+
+div#saudação 
+{
+    text-align: center;
+}
+
+

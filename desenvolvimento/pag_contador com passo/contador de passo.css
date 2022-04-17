@@ -1,0 +1,82 @@
+
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.project
+{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;/*adicionar objetos lado a lado no grid*/
+  justify-items: center;
+
+}
+
+.descricao
+{
+  margin-left: 20px;
+}
+.card_inicial
+{
+  width: 50;
+  height: 230px;
+  padding: 20px 20px;
+  background: rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4.8px);
+  -webkit-backdrop-filter: blur(4.8px);
+  border: 2px solid rgba(0, 0, 0, 0.22);
+  display: flex;
+  gap: 20px;
+  
+}
+
+.txtPasso
+{
+  margin-top: 20px;
+}
+.txtFim
+{
+  margin-top: 20px;
+}
+.inicio
+{
+  margin-left: 14px;
+  width: 80px;
+}
+.passo
+{
+  width: 80px;
+  margin-left: 11px;
+}
+.fim
+{
+  width: 80px;
+  margin-left: 26px;
+}
+.card_res
+{
+  width: 530px;
+  height: 230px;
+  padding: 20px 40px;
+  background: rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4.8px);
+  -webkit-backdrop-filter: blur(4.8px);
+  border: 2px solid rgba(0, 0, 0, 0.22);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.btnContar
+{
+  margin-top: 40px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 4px;
+  margin-left: 35px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
