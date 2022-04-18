@@ -1,48 +1,128 @@
 
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title>Tabuada</title>
-    <link rel="stylesheet" href="style_tabuada.css">
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Tabuada</title>
+
+  <script src="https://kit.fontawesome.com/3fcd0a326c.js" crossorigin="anonymous"></script>
+
+  <!--style referente a estrutura geral para o conteudo do projeto é necessario chamar a  style especifica do projeto
+  usar ../ para voltar e -->
+  <link rel="stylesheet" href="../style geral para as paginas/style.css">
+
+  <!--style especifica do projeto ...OBS: lembrar do '../' para acessar a pasta style-->
+  <link rel="stylesheet" href="desenvolvimento_projeto.css">
 
 </head>
-<body id="body"> <!-- carrega a funcao desejada criada no js-->
+
+<body>
+  <header class="header">
+    <a class="h1" href="https://uzieljunior.github.io/portifolio_uziel/#projetos"> <h1> @_uziel Moreira</h1> </a>
     
-    <header>
-      <h1>Tabuada</h1>  
-    </header>
+    <div>
+      <ul class="menu">
+        <li><a href="https://uzieljunior.github.io/portifolio_uziel/#projetos">Projetos</a></li>
+        <li><a href="#redes">Redes Sociais</a></li>
+      </ul>
+    </div>
 
-        <section id="card">
+  </header>
 
-            <div>
-                <p > Digite um valor:  
-                    <input class="inicio" type="number" name="txtinicio" id="txtinicio" >
-                </p>
-                
-                <input type="button" value="Contar" onclick="Contar()">              
-            </div >
+  <main class="container">
+    <h4>Tabuada</h4>  
 
-            <p id="res">
-                Preparando a contagem...
+    <nav class="project">
+      <section class="descricao">
+          <h5>Descrição do projeto</h5>
+          <br>
+          <p>
+            Esse projeto permite ao usuario informar o valor desejado e ao lado será exibida a sua tabuda. Caso deseje inserir numeros quebrados use o ponto ao invés de virgula.
+          </p>
+
+          <br>
+          <a class="btnLinkProject" href="https://github.com/UzielJunior/portifolio_uziel/tree/main/desenvolvimento/pag_tabuada" target="_blank" rel="external">Link do Projeto no GitHub</a>
+      </section>
+
+      <section class="card_inicial">
+        <div>
+          Digite abaixo o valor <br> que deseja calcular:
+            <p class="txtInicio">
+                <input class="inicio" type="number" name="txtinicio" id="txtinicio" >
             </p>
+            <input class="btnContar" type="button" value="Contar" onclick="Contar()">
+      </div>      
+    </section>
 
-            <div>
-                <select name="tabuada" id="selectTAbuada" size="12">
-                    <option value=""> Digite um numero acima</option>
-                </select>
-            </div>
-        </section>
+        <div class="card_res">
+          <p id="res">
+              Preparando a contagem...
+          </p>
+          <div>
+              <select name="tabuada" id="selectTAbuada" size="12">
+                  <option value=""> </option>
+              </select>
+        </div>
+        </div>
+    </section>
     
+    </nav>
     
-        <footer>
-            <p>Desenvolvido por <a href="https://uzieljunior.github.io/portifolio_uziel/#projetos" target="_blank" rel="external">@uziel.</a><br>® Copyright 2022. Todos os Direitos Reservados.</p>
-          </footer>
+    <div id="redes">
+      <br>
+      <p class="sub">Me siga nas Redes Sociais.</p>
+      <h2 class="sub-titulo">Redes Sociais</h2>
+    </div>
 
-    <script src="script_tabuada.js"></script>
+    <div class="social">
+
+      <div class="social-link">
+        <a href="https://github.com/UzielJunior" target="_blank" rel="external"> <i class="fa-brands fa-github"></i>
+          <br><br>GitHub
+        </a>
+      </div>
+      
+      <div class="social-link">
+        <a href="https://codepen.io/UzielJunior" target="_blank" rel="external"><i class="fa-brands fa-codepen" ></i><br><br> CodePen</a>
+      </div>
+      
+      <div class="social-link">
+        <a href="https://www.linkedin.com/in/uziel-moreira-dos-santos-507634199/" target="_blank" rel="external"><i class="fa-brands fa-linkedin-in" width="50" height="50"></i><br><br>LinkedIn</a>
+      </div>
+
+      <div class="social-link">
+        <a href="https://usielmorreira@gmail.com" target="_blank" rel="external">          
+          <i class="fa-solid fa-envelope" width="50" height="50"></i><br><br>Gmail</a>
+      </div>
+
+      <div class="social-link">
+        <a href="https://wa.me/qr/7PGUIXZP7QFIK1" target="_blank" rel="external">
+          <i class="fa-brands fa-whatsapp" width="50" height="50"></i><br><br>Whatsapp</a>
+      </div>
+
+    </div>
+
+    <div id="back-to-top">
+      <i class="fas fa-arrow-up"></i>
+    </div>
+
+  </main>
+
+  <footer>
+    <p>Desenvolvido por <a href="https://uzieljunior.github.io/portifolio_uziel/#projetos">@uziel.</a><br>® Copyright 2022. Todos os Direitos Reservados.</p>
+  </footer>
+
+  <!--É necessario o script da pagina inicial por ele ser o da interatividade padrao da estrutura da pagina-->
+  <script src="script_paginaInicial.js"></script>
+
+  <!--Aqui e chamado o script do referido projeto-->
+  <script src="script_tabuada.js"></script>
 
 </body>
+
 </html>

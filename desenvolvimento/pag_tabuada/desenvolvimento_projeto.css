@@ -16,10 +16,13 @@ h4
 }
 .project 
 {
-  margin-top: 0;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;/*adicionar objetos lado a lado no grid*/
   justify-items: center;
+}
+.descricao
+{
+  margin-left: 20px;
 }
 h5
 {
@@ -28,75 +31,7 @@ h5
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-}
-.descricao
-{
-  margin-left: 20px;
-}
-.card_inicial
-{
-  width: 50;
-  height: 300px;
-  padding: 20px 20px;
-  background: rgba(0, 0, 0, 0.2);
-  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(4.8px);
-  -webkit-backdrop-filter: blur(4.8px);
-  border: 2px solid rgba(0, 0, 0, 0.22);
-  display: flex;
-  gap: 20px;
-}
-.btnContar
-{
-  margin-top: 40px;
-  padding: 10px;
-  text-align: center;
-  border-radius: 4px;
-  margin-left: 25px;
-  padding: 10px 20px;
-  font-size: 16px;
-  background: rgba(0, 0, 0, 0.2);
-  border: 2px solid #1A4855;
-  color: aliceblue;
-  font-family: 'Montserrat', sans-serif;
-  cursor: pointer;
-}
-.txtPasso
-{
-  margin-top: 20px;
-}
-.txtFim
-{
-  margin-top: 20px;
-}
-.inicio
-{
-  margin-left: 14px;
-  width: 80px;
-}
-.passo
-{
-  width: 80px;
-  margin-left: 11px;
-}
-.fim
-{
-  width: 80px;
-  margin-left: 26px;
-}
-.card_res
-{
-  width: 530px;
-  height: 300px;
-  padding: 20px 40px;
-  background: rgba(0, 0, 0, 0.2);
-  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(4.8px);
-  -webkit-backdrop-filter: blur(4.8px);
-  border: 2px solid rgba(0, 0, 0, 0.22);
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
+ 
 }
 .btnLinkProject 
 {
@@ -111,5 +46,54 @@ h5
   font-family: 'Montserrat', sans-serif;
   cursor: pointer;
 }
-
-
+.card_inicial
+{
+  justify-items: center;
+  width: 90;
+  height: 270px;
+  padding: 20px 20px;
+  background: rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4.8px);
+  -webkit-backdrop-filter: blur(4.8px);
+  border: 2px solid rgba(0, 0, 0, 0.22);
+  display: flex;
+  gap: 20px;
+}
+.inicio
+{
+  margin-top: 70px; 
+  font-size: 18;
+  height: 30px;
+}
+.btnContar
+{
+  width: 60;
+  height: 40px;
+  margin-top: 40px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 4px;
+  margin-left: 35px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background: rgba(0, 0, 0, 0.2);
+  border: 2px solid #1A4855;
+  color: aliceblue;
+  font-family: 'Montserrat', sans-serif;
+  cursor: pointer;
+}
+.card_res
+{
+  width: 300px;
+  height: 270px;
+  padding: 20px 40px;
+  background: rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4.8px);
+  -webkit-backdrop-filter: blur(4.8px);
+  border: 2px solid rgba(0, 0, 0, 0.22);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

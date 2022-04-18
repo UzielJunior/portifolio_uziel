@@ -22,10 +22,10 @@ function Contar()
         tabuada.innerHTML = ''
     }  
     
-    // Calculo da tabuada
+    // ==== Calculo da Tabuada ====
     else
     {
-       tabuada.innerHTML = '' //se tabuade nao for limpa a tabuada anterior se manterá na select
+       tabuada.innerHTML = `` //se tabuade nao for limpa a tabuada anterior se manterá na select
 
         var c = 0;
         while (c <= 10 )
@@ -33,7 +33,7 @@ function Contar()
             let item = document.createElement('option')     // criando um elemento em html
             item.text = `${inicio} x ${c} = ${c * inicio}`  //escrevendo dentro da option com comando text
             tabuada.appendChild(item)   // com elemento "item" criado imformamos que
-                                        //será adicionado na "tabuada" um filho"child" de item   
+                                        //será adicionado na "tabuada" um filho"child" de item  
             c++  // incremento
         }//while
     } // else              
