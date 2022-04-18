@@ -1,43 +1,117 @@
 
-
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title>cards</title>
-    <link rel="stylesheet" href="style_card.css">
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Uziel Portfólio</title>
+
+  <script src="https://kit.fontawesome.com/3fcd0a326c.js" crossorigin="anonymous"></script>
+
+  <!--style referente a estrutura geral para o conteudo do projeto é necessario chamar a  style especifica do projeto-->
+  <link rel="stylesheet" href="../style geral para as paginas/style.css">
+
+  <!--style especifica do projeto ...OBS: lembrar do '../' para acessar a pasta style-->
+  <link rel="stylesheet" href="style_card.css">
 
 </head>
-<body onload="carregar()" id="body"> <!-- carrega a funcao desejada criada no js-->
+
+<body onload="carregar()">
+
+  <header class="header">
+    <a class="h1" href="https://uzieljunior.github.io/portifolio_uziel/#projetos"> <h1> @_uziel Moreira</h1> </a>
     
-    <header>
-      <h1>Hora do dia</h1>  
-    </header>
+    <div>
+      <ul class="menu">
+        <li><a href="https://uzieljunior.github.io/portifolio_uziel/#projetos">Projetos</a></li>
+        <li><a href="#redes">Redes Sociais</a></li>
+        
+      </ul>
+    </div>
 
-        <section id="card">
+  </header>
 
-            <div class="infoHoras" id="infoHoras">
-                
-            </div>
-       
-            <div id="foto">
-                <img class="imagem"  id="imagem" src="imagens editadas/foto de dia.png" alt="foto do dia">
-            </div>
+  <main class="container">
 
-            <div class="saudação" id="saudação"></div>
-   
-
+    <h4>Cards</h4>
+      <nav class="project">
+        <section class="descricao">
+            <h5>Descrição do projeto</h5>
+            <br>
+            <p>
+                O projeto foi desenvolvidos com 3 areas de interação que alteram de acordo com o horario sendo, o topo do card informando o tempo real, a foto que se altera de noite, de tarde, de madrugada e no inicio do dia e a saudacão na base do card.
+            </p>
+            <br>
+            <a class="btnLinkProject" href="https://github.com/UzielJunior/portifolio_uziel/tree/main/desenvolvimento/pag_cards" target="_blank" rel="external">Link do Projeto no GitHub</a>
         </section>
-    
-    
-        <footer>
-            <p>Desenvolvido por <a href="https://uzieljunior.github.io/portifolio_uziel/#projetos" target="_blank" rel="external">@uziel.</a><br>® Copyright 2022. Todos os Direitos Reservados.</p>
-          </footer>
 
-    <script src="script_card.js"></script>
+        <section class="card" id="card">
+          <div class="infoHoras" id="infoHoras">
+          </div>
+     
+          <div class="foto">
+              <img class="imagem"  id="imagem" src="imagens editadas/foto de tarde.png" alt="foto do dia">
+          </div>
+
+          <div class="saudação" id="saudação"></div>
+      </section>
+        
+      </nav>
+    
+    <div id="redes">
+      <br>
+      <p class="sub">Me siga nas Redes Sociais.</p>
+      <h2 class="sub-titulo">Redes Sociais</h2>
+    </div>
+
+    <div class="social">
+
+      <div class="social-link">
+        <a href="https://github.com/UzielJunior" target="_blank" rel="external"> <i class="fa-brands fa-github"></i>
+          <br><br>GitHub
+        </a>
+      </div>
+      
+      <div class="social-link">
+        <a href="https://codepen.io/UzielJunior" target="_blank" rel="external"><i class="fa-brands fa-codepen" ></i><br><br> CodePen</a>
+      </div>
+      
+      <div class="social-link">
+        <a href="https://www.linkedin.com/in/uziel-moreira-dos-santos-507634199/" target="_blank" rel="external"><i class="fa-brands fa-linkedin-in" width="50" height="50"></i><br><br>LinkedIn</a>
+      </div>
+
+      <div class="social-link">
+        <a href="https://usielmorreira@gmail.com" target="_blank" rel="external">          
+          <i class="fa-solid fa-envelope" width="50" height="50"></i><br><br>Gmail</a>
+      </div>
+
+      <div class="social-link">
+        <a href="https://wa.me/qr/7PGUIXZP7QFIK1" target="_blank" rel="external">
+          <i class="fa-brands fa-whatsapp" width="50" height="50"></i><br><br>Whatsapp</a>
+      </div>
+
+    </div>
+
+    <div id="back-to-top">
+      <i class="fas fa-arrow-up"></i>
+    </div>
+
+  </main>
+
+  <footer>
+    <p>Desenvolvido por <a href="https://uzieljunior.github.io/portifolio_uziel/#projetos">@uziel.</a><br>® Copyright 2022. Todos os Direitos Reservados.</p>
+  </footer>
+
+  <!--É necessario o script da pagina inicial por ele ser o da interatividade padrao da estrutura da pagina-->
+  <script src="script_paginaInicial.js"></script>
+
+  <!--Aqui e chamado o script do referido projeto-->
+  <script src="script_card.js"></script>
 
 </body>
+
 </html>

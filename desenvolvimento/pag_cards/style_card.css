@@ -1,4 +1,10 @@
 
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 :root {
 
@@ -7,21 +13,46 @@
     --backCardNoite: linear-gradient(336.85deg, #210d47 17.26%, #093347 56.03%);
     --backCardTarde: linear-gradient(336.85deg, #8d2e2e 17.26%, #c1c139 76.03%); 
 }
-body {  
-
-    background: #222327;
-    font: normal 15pt Arial;
-    
-    text-align: center;
-}
-
-header
+h4
 {
-    color: aliceblue;
-    text-align: center;
+  text-align: center;
+  font: bold 2.7rem/1.1 'Montserrat', sans-serif;
+  background: linear-gradient(to right, #5D8973 0%, #1A4855 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 20px;
+}
+.project 
+{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;/*adicionar objetos lado a lado no grid*/
+  justify-items: center;
 }
 
-section
+h5
+{
+  font: bold 1.5rem/1.1 'Montserrat', sans-serif;
+  background: linear-gradient(to right, #5D8973 0%, #1A4855 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.btnLinkProject 
+{
+  padding: 10px;
+  text-align: center;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background: rgba(0, 0, 0, 0.2);
+  border: 2px solid #1A4855;
+  color: aliceblue;
+  font-family: 'Montserrat', sans-serif;
+  cursor: pointer;
+}
+
+
+.card
 {
     text-align: center;
     border-radius: 15px ;
@@ -32,6 +63,14 @@ section
     margin: auto;
 }
 
+.foto 
+{
+    margin-top: 30px;
+}
+.saudação
+{
+    margin-top: 25px;
+}
 footer
 {
     color: aliceblue;
@@ -42,11 +81,14 @@ footer
 div#infoHoras
 {
     text-align: center;
+    margin-top: 10px;
 }
 
 div#saudação 
 {
     text-align: center;
+    
 }
+
 
 

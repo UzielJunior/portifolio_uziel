@@ -20,10 +20,7 @@ h4
   grid-template-columns: 1fr 1fr 1fr;/*adicionar objetos lado a lado no grid*/
   justify-items: center;
 }
-.descricao
-{
-  margin-left: 20px;
-}
+
 h5
 {
   font: bold 1.5rem/1.1 'Montserrat', sans-serif;
@@ -31,7 +28,6 @@ h5
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
- 
 }
 .btnLinkProject 
 {
