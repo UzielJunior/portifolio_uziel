@@ -1,7 +1,6 @@
 
 function Contar() 
 {
-    
     let inicioInfo = document.getElementById('txtinicio')
     let passoInfo = document.getElementById('txtpasso')
     let fimInfo = document.getElementById('txtfim')
@@ -39,33 +38,47 @@ function Contar()
         {
             window.alert('[ERRO] Valor do inicio igual do fim.')
         }
-
         resInfo.innerHTML = `Impossivel contar apenas com esses dados`
-    }// encerra prevenção de erros
-
-    // Contagem progressiva
-    if (fim > inicio)
-    {
-        resInfo.innerHTML = ``
-
-        for (let c = inicio ; c <=fim ; c+= passo)
-            {
-                resInfo.innerHTML += ` ${c} \u{1F449} `
-            }
-        resInfo.innerHTML += '\u{1F3C1}'    
     }
-
-    //contagem regressiva
-    else if (fim < inicio)
+    else if (passo < 0)// passo negativo
     {
-        resInfo.innerHTML = ``
+        window.alert(`[ERRO] passo menor que 0`)
+    }// passo negativo
 
-        for (c = inicio ; c >= fim ; c-= passo)
+    // ==== ENECERRA A PREVENÇÃO DE ERROS ====
+
+    // ==== EFETUA A CONTAGEM ====
+    else if (passo > 0)// passo positivo o
+    {   
+        let contador = 0 //
+
+        if (fim > inicio)// Contagem progressiva positiva
+        {
+            resInfo.innerHTML = ``
+            for (let c =  inicio ; c <=fim ; c+= passo)
             {
-                resInfo.innerHTML += `${c} \u{1F449} `
+                if( contador < 100) //impede que seja exibido mais de 100 termos na <div> res
+                {
+                    resInfo.innerHTML += ` ${c} \u{1F449} `
+                }
+                contador++
+            }  
+            resInfo.innerHTML += '\u{1F3C1}'
+        }// Contagem progressiva positiva
+
+        else if (fim < inicio)//contagem progressiva negativa
+        {
+            resInfo.innerHTML = ``
+            for (let c = inicio ; c >= fim ; c-= passo)
+            {
+                if( contador < 100) //impede que seja exibido mais de 100 termos na <div> res
+                {
+                    resInfo.innerHTML += ` ${c} \u{1F449} `
+                }
+                contador++
             }
-        resInfo.innerHTML += '\u{1F3C1}' 
-    }
-           
-}//encerra function
+            resInfo.innerHTML += '\u{1F3C1}'  
+        }// contagem progressiva negativa
+    }// passo positivo
+}// encerra function
 
