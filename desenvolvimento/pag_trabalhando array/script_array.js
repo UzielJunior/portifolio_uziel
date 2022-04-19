@@ -30,13 +30,14 @@ function Inserir()
         document.getElementById("txtvalor").value = "";
         document.getElementById('resultados').style.visibility = 'visible';
         avisoInfo.innerHTML = 'Valor ja cadastrado'
+        
     }
 
     else
     {
        if (valor > 100)
        { 
-            window.alert = (`Valor maior que o permitido`)
+            
             document.getElementById("txtvalor").value = "";
             document.getElementById('resultados').style.visibility = 'visible';
             avisoInfo.innerHTML = 'Valor maior que o permitido'
@@ -62,15 +63,13 @@ function Inserir()
             //limpando os campos campo
             document.getElementById("txtvalor").value = "";
             avisoInfo.innerHTML = ''
-            
-            document.getElementById('resultados').style.visibility = 'hidden';
         }//else
     } // else              
 }//encerra function Inserir
 
 function exibirResultado()
 {       
-    document.getElementById('resultados').style.visibility = 'visible';
+    
     var contagemInfo = document.getElementById('contagem')
     var maiorInfo = document.getElementById('maior')
     var menorInfo = document.getElementById('menor')

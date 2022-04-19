@@ -1,59 +1,151 @@
 
-
-:root 
+*
 {
-    --bod: #222327;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h4
+{
+  text-align: center;
+  font: bold 2.7rem/1.1 'Montserrat', sans-serif;
+  background: linear-gradient(to right, #5D8973 0%, #1A4855 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 20px;
+}
+.project 
+{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;/*adicionar objetos lado a lado no grid*/
+  justify-items: center;
+}
+
+h5
+{
+  font: bold 1.5rem/1.1 'Montserrat', sans-serif;
+  background: linear-gradient(to right, #5D8973 0%, #1A4855 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.btnLinkProject 
+{
+  margin-top: 30px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background: rgba(0, 0, 0, 0.2);
+  border: 2px solid #1A4855;
+  color: aliceblue;
+  font-family: 'Montserrat', sans-serif;
+  cursor: pointer;
+}
+.card_inicial
+{
+  
+  justify-items: center;
+  width: 50;
+  height: 300px;
+  padding: 20px 20px;
+  background: rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4.8px);
+  -webkit-backdrop-filter: blur(4.8px);
+  border: 2px solid rgba(0, 0, 0, 0.22);
+  display: flex;
     
-    --backCard: linear-gradient(336.85deg, #af43b4 12.26%, rgba(50, 194, 230, 0.692) 76.03%); 
-}
-body 
-{  
-    background-color: #222327;
-    font: normal 15pt Arial;
-    color: aliceblue;
-    text-align: center;
-}
-
-header
+  }
+.txtvalor
 {
-    color: aliceblue;
-    text-align: center;
+  margin-left: 0px;
+  margin-top: 30px;
+  justify-items: center;
 }
-
-section#card
+.selectArray
 {
-    background: var(--backCard);
-    text-align: center;
-    border-radius: 15px ;
-    padding: 8px;
-    width: 400px;
-    height: 420px;
-    box-shadow: 3px 3px 10px rgb(0, 0, 0, 363);
-    margin: auto;
-
+  margin-top: 30px;
+  margin-left: 0px;
 }
-
-input#txtvalor
+.btnInserir
 {
-    margin-top: 10px;
+  width: 60;
+  height: 40px;
+  margin-top: 30px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 4px;
+  margin-left: 75px;
+  padding: 10px;
+  font-size: 16px;
+  background: rgba(0, 0, 0, 0.2);
+  border: 2px solid #1A4855;
+  color: aliceblue;
+  font-family: 'Montserrat', sans-serif;
+  cursor: pointer;
+}
+.btnExibirResultado
+{
+  width: 60;
+  height: 40px;
+  margin-top: 0px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 4px;
+  margin-left: 0px;
+  padding: 10px;
+  font-size: 16px;
+  background: rgba(0, 0, 0, 0.2);
+  border: 2px solid #1A4855;
+  color: aliceblue;
+  font-family: 'Montserrat', sans-serif;
+  cursor: pointer;
+}
+.resultados
+{
+  width: 400px;
+  height: 300px;
+  padding: 20px 40px;
+  background: rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4.8px);
+  -webkit-backdrop-filter: blur(4.8px);
+  border: 2px solid rgba(0, 0, 0, 0.22);
+  display: flex;
+  flex-direction: column;  
+}
+.dados
+{
+  margin-top: 20px;
+}
+p#aviso
+{
+  margin-top: 20px;
+}
+p#contagem
+{
+  margin-top: 20px;
+}
+p#maior
+{
+  margin-top: 20px;
+}
+p#menor
+{
+  margin-top: 20px;
+}
+p#soma
+{
+  margin-top: 20px;
+}
+p#media
+{
+  margin-top: 20px;
 }
 
-select
-{
-    margin-top: 10px;
-}
-
-div#resultado
-{
-    margin-left: 0px;
-
-}
-footer
-{
-    text-align: center;
-    font-style: italic;
-    margin-top: 30px;
-}
 
 
 
