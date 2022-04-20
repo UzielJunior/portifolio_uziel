@@ -1,10 +1,12 @@
 
 .sub
 {
+  margin-top: 15px;
   margin-top: 40px;
 }
-
-.social {
+.social 
+{
+  margin-top: 15px;
   display: flex; 
   flex-wrap: wrap;
   flex: 1;
@@ -12,10 +14,12 @@
   text-align: center;
   padding-bottom: 120px;
 }
-.social p {
-  margin-top: 5px;
+.social p 
+{
+  margin-top: 15px;
 }
-.social-link {
+.social-link 
+{
   display: grid;
   grid-template-columns: calc(4, 1fr);
   width: 144px;
@@ -28,15 +32,18 @@
   -webkit-backdrop-filter: blur(4.8px);
   border: 2px solid rgba(0, 0, 0, 0.22);
 }
-.social-link:hover {
+.social-link:hover 
+{
   background-color: #000000;
   border: 1px solid #1A4855;
 }
- i {
+ i 
+ {
   color: #F8f8f8;
   font-size: 50px;
 }
- i:hover {
+ i:hover 
+ {
   background: linear-gradient(to right, #5D8973 0%, #1A4855 100%);
   background-clip: text;
   -webkit-background-clip: text;

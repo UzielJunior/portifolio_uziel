@@ -26,7 +26,7 @@
 .projetos-imersaoDev:hover 
 {
   background-color: #000000;
-  border: 1px solid #1A4855;
+  background-image: linear-gradient(to right, #f43b47 0%, #453a94 100%);
 }
 .projetos-imersaoDev a 
 {
@@ -70,7 +70,7 @@
   opacity: 50;
   transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
   cursor: pointer;
-  background: linear-gradient(to right, #5D8973 0%, #1A4855 100%);
+  background: black;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -103,7 +103,7 @@
 .projetos-CursoEmVideo:hover 
 {
   background-color: #000000;
-  border: 1px solid #1A4855;
+  background-image: linear-gradient(to right, #f43b47 0%, #453a94 100%);
 }
 .projetos-CursoEmVideo a 
 {
@@ -146,7 +146,7 @@
   opacity: 50;
   transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
   cursor: pointer;
-  background: linear-gradient(to right, #5D8973 0%, #1A4855 100%);
+  background: black;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

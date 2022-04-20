@@ -9,13 +9,11 @@
   align-content: center;
   padding-bottom: 80px;
 }
-
 h1 
 {
-  
   font: bold 2.5rem/1.1 'Montserrat', sans-serif;
   margin-bottom: 20px;
-  background: linear-gradient(to right, #5D8973 0%, #1A4855 100%);
+  background-image: linear-gradient(to right, #f43b47 0%, #453a94 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -23,18 +21,6 @@ h1
 .texto
 {
   margin-top: 15px;
-}
-h2 
-{
-  font: bold 1.8rem/1.1 'Montserrat', sans-serif;
-  text-transform: uppercase;
-  text-align: start;
-  margin-bottom: 30px;
-  margin-top: 5px;
-  background: linear-gradient(to right, #5D8973 0%, #1A4855 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 p 
 {

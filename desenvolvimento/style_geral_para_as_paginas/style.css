@@ -51,3 +51,13 @@ body
 {
   font-size: 20px;
 }
+h2
+{
+  background-image: linear-gradient(to right, #f43b47 0%, #453a94 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  line-height: 1.5;
+  font-size: 1.5rem;
+}

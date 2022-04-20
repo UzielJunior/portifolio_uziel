@@ -29,11 +29,11 @@ color: #171717;
 }
 .light .social-link:hover 
 {
-  background-color: #1a485521;
-  border: 2px solid #17171715;
+  background-color: linear-gradient(to right, #f43b47 0%, #453a94 100%);;
+  border: 2px solid linear-gradient(to right, #f43b47 0%, #453a94 100%);;
 }
 .light a {
-  color: #336060;
+  color: linear-gradient(to right, #f43b47 0%, #453a94 100%);
 }
 .light .projeto-a 
 {
