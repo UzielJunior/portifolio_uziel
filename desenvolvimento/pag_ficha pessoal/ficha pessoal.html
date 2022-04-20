@@ -1,0 +1,215 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Uziel Portfólio</title>
+
+  <script src="https://kit.fontawesome.com/3fcd0a326c.js" crossorigin="anonymous"></script>
+
+  <!--style referente a estrutura geral para o conteudo do projeto é necessario chamar a  style especifica do projeto-->
+  <link rel="stylesheet" href="../style_geral_para_as_paginas/style.css">
+
+  <!--style especifica do projeto ...OBS: lembrar do '../' para acessar a pasta style-->
+  <link rel="stylesheet" href="desenvolvimento_projeto.css">
+
+
+</head>
+
+<body>
+  <header class="header">
+    <a class="h1" href="https://uzieljunior.github.io/portifolio_uziel/#projetos"> <h1> @_uziel Moreira</h1> </a>
+    
+    <div>
+      <ul class="menu">
+        <li><a href="https://uzieljunior.github.io/portifolio_uziel/#projetos">Projetos</a></li>
+        <li><a href="#redes">Redes Sociais</a></li>
+      </ul>
+    </div>
+
+  </header>
+
+  <main class="container">
+
+<h4> Ficha Pessoal </h4>
+
+      <nav class="project">        
+
+        <section class="descricao">
+            <h5>Descrição do projeto</h5>
+            <br>
+            <p>
+              Esse projeto permite a um desnvovedor informar alguns <br> dados para se construir uma ficha  pessoal.
+            </p>
+            <br>
+            <a class="btnLinkProject" href="#" target="_blank" rel="external">Link do Projeto no GitHub</a>
+        </section>
+        
+        <form class="formulario" action="" >
+          
+          <div>
+            <h3 class="tituloFicha" id="tituloFicha">Cadastro de Devs</h3>
+            <br>
+          </div>
+            
+              <div class="campo">
+                <br>
+                <label class="nome" for="nome"><strong>Nome:</strong></label>
+                <input type="text" name="nome" id="nome" class="nome" required>
+                <label class="sobreNome" for="sobreNome"><strong>Sobrenome:</strong></label>
+                <input type="text" name="sobreNome" id="sobreNome" class="sobreNome" required>
+              </div>
+            
+         
+
+          <div class="campo">
+            <div class="email">
+              <label class="email" for="email"><strong>Email : </strong></label>
+              <input type="email" name="email" id="email" class="email" required>
+            </div>
+          </div>
+
+          <div class="campo">
+
+            <div>
+              <label><strong>De qual lado da aplicação voce desenvolve?</strong></label>
+            </div>
+
+              <div class="stack">
+
+                <label for="">
+                <input class="front-end" type="radio" name="devWeb" value="front-end">front-end
+                </label>
+
+               <label for="">
+                <input class="back-end" type="radio" name="devWeb" value="back-end">back-end
+                </label>
+
+                <label for="">        
+                <input class="full-stack" type="radio" name="devWeb" value="full-stack" checked>full-stack
+                </label>
+              </div>
+          </div>
+          
+          <div class="campo">
+            
+            <label for="senioridade"><strong>Senioridade</strong></label>
+
+            <select name="senioridade" id="senioridade" class="senioridade">
+              <option selected disabled value="">selecione...</option>
+              <option class="senioridade">Estagiario</option>
+              <option class="senioridade">Junior</option>
+              <option class="senioridade">Pleno</option>
+              <option class="senioridade">Senior</option>
+            </select>
+          </div>
+
+          <div class="grupoTecnologias">
+           
+              <div class="txtTecnologias"> 
+                <label><strong>Selecione as tecnologias que utiliza: </strong></label>
+              </div>
+
+              <div class="tecnologias">  
+
+                <input type="checkbox" id="tecnologia1" name="tecnologia1" class="tecnologia1" value="HTML">
+                <label for="tecnologia1"> HTML</label>
+  
+                <input type="checkbox" id="tecnologia2" name="tecnologia2" class="tecnologia2" value="HTML">
+                <label for="tecnologia2"> JavaScript</label>
+  
+                <input type="checkbox" id="tecnologia3" name="tecnologia3" class="tecnologia3" value="HTML">
+                <label for="tecnologia3"> Css</label>
+  
+                <input type="checkbox" id="tecnologia4" name="tecnologia4" class="tecnologia4" value="HTML">
+                <label for="tecnologia4"> Java</label>
+  
+                <input type="checkbox" id="tecnologia5" name="tecnologia5" class="tecnologia5" value="HTML">
+                <label for="tecnologia5"> C++</label>
+                
+                <input type="checkbox" id="tecnologia6" name="tecnologia6" class="tecnologia6" value="HTML">
+                <label for="tecnologia6"> Python</label>
+                
+                <input type="checkbox" id="tecnologia7" name="tecnologia7" class="tecnologia7" value="HTML">
+                <label for="tecnologia7"> PHP</label>
+              </div>
+
+          </div>
+         
+
+
+          <div class="experiencia">
+            <br>
+            <div>
+              
+              <label for=""><strong>Conte um pouco sobre a sua experiencia </strong></label>
+            </div>
+
+            <textarea class="txtarea" name="" id="" cols="0" rows="10" style="width: 26em;"></textarea>
+          </div>
+          <br>
+          <button class="btnConcluido" type="submit">Concluido</button>
+          <p><br></p>
+  
+        </form>
+    
+      </nav>
+    
+    <div id="redes">
+      <br>
+      <p class="sub">Me siga nas Redes Sociais.</p>
+      <h2 class="sub-titulo">Redes Sociais</h2>
+    </div>
+
+    <div class="social">
+
+      <div class="social-link">
+        <a href="https://github.com/UzielJunior" target="_blank" rel="external"> <i class="fa-brands fa-github"></i>
+          <br><br>GitHub
+        </a>
+      </div>
+      
+      <div class="social-link">
+        <a href="https://codepen.io/UzielJunior" target="_blank" rel="external"><i class="fa-brands fa-codepen" ></i><br><br> CodePen</a>
+      </div>
+      
+      <div class="social-link">
+        <a href="https://www.linkedin.com/in/uziel-moreira-dos-santos-507634199/" target="_blank" rel="external"><i class="fa-brands fa-linkedin-in" width="50" height="50"></i><br><br>LinkedIn</a>
+      </div>
+
+      <div class="social-link">
+        <a href="https://usielmorreira@gmail.com" target="_blank" rel="external">          
+          <i class="fa-solid fa-envelope" width="50" height="50"></i><br><br>Gmail</a>
+      </div>
+
+      <div class="social-link">
+        <a href="https://wa.me/qr/7PGUIXZP7QFIK1" target="_blank" rel="external">
+          <i class="fa-brands fa-whatsapp" width="50" height="50"></i><br><br>Whatsapp</a>
+      </div>
+
+    </div>
+
+    <div id="back-to-top">
+      <i class="fas fa-arrow-up"></i>
+    </div>
+
+  </main>
+
+  <footer>
+    <p>Desenvolvido por <a href="https://uzieljunior.github.io/portifolio_uziel/#projetos">@uziel.</a><br>® Copyright 2022. Todos os Direitos Reservados.</p>
+  </footer>
+
+  <!--É necessario o script da pagina inicial por ele ser o da interatividade padrao da estrutura da pagina-->
+  <script src="script-fichaPessoal.js"></script>
+
+  <!--Aqui e chamado o script do referido projeto-->
+  <script src=""></script>
+
+</body>
+
+</html>

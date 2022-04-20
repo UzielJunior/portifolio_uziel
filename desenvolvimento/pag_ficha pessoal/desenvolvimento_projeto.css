@@ -1,0 +1,181 @@
+
+@import "style.css";
+@import "light.css";
+
+*
+{
+  padding: 0;
+}
+.project 
+{
+  display: grid;
+  grid-template-columns: 1fr 1fr ;/*adicionar objetos lado a lado no grid*/
+  justify-items: center;
+  gap: 20px;
+}
+h4
+{
+  text-align: center;
+  font: bold 2.7rem/1.1 'Montserrat', sans-serif;
+  background: linear-gradient(to right, #5D8973 0%, #1A4855 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 20px;
+}
+
+h5
+{
+  font: bold 1.5rem/1.1 'Montserrat', sans-serif;
+  background: linear-gradient(to right, #5D8973 0%, #1A4855 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.btnLinkProject 
+{
+  padding: 10px;
+  text-align: center;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background: rgba(0, 0, 0, 0.2);
+  border: 2px solid #1A4855;
+  color: aliceblue;
+  font-family: 'Montserrat', sans-serif;
+  cursor: pointer;
+}
+
+.tituloFicha
+{
+  margin-top: 20px;
+  font: bold 1.5rem/1.1 'Montserrat', sans-serif;
+  background: linear-gradient(to right, #5D8973 0%, #1A4855 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.project
+{
+  margin-top: 20px;
+}
+.formulario
+{
+  border: 1.3px solid #5D8973;
+  border-radius: 10px;
+  color: black;
+  background: #ffffff;
+  width: 120;
+  height: 900;
+  font-family: 'Montserrat', sans-serif;
+  transition: background 0.2s linear;
+  align-items: center;
+  text-align: center;
+  display: block;
+}
+.fieldset
+{
+  display: table;
+  border: 0;
+}
+label.nome
+{
+  margin-top: 20px;
+  margin-left: 15px;
+}
+label.sobreNome
+{
+  margin-top: 10px;
+  margin-left: 15px;
+}
+input.sobreNome
+{
+  margin-right: 10px;
+}
+div.email
+{
+  text-align: left;
+  margin-top: 10px;
+}
+label.email
+{
+  margin-left: 15px;
+}
+.campo
+{
+  margin-bottom: 1em;
+}
+.stack
+{
+  margin-top: 10px;
+}
+.full-stack
+{
+  margin-left: 15px;
+}
+.back-end
+{
+  margin-left: 15px;
+}
+/*
+fieldset.grupo .campo
+{
+  float: left;
+}
+.campo input[type="text"], .campoinput[type="email"], .campo select, .campo textarea
+{
+  padding: 0;
+  border: 1px solid #59429d;
+  display: block;
+}
+*/
+
+.senioridade
+{ 
+  border-radius: 0px;
+  padding-right: 1em;
+  background: #f8f8f8;
+}
+.btnConcluido
+{
+  padding: 10px;
+  text-align: center;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font: bold 1rem/1.1 'Montserrat', sans-serif;
+  background: rgb(31, 29, 29);
+  border: 3px solid #1A4855;
+  color: rgb(255, 255, 255);
+  font-family: 'Montserrat', sans-serif;
+  cursor: pointer;
+}
+.grupoTecnologias div
+{
+  margin-top: 20px;
+  text-align: left;
+  padding: 0px;
+}
+.txtTecnologias
+{
+  margin-left: 15px;
+}
+.tecnologias
+{
+  margin-left: 15px;
+}
+.experiencia 
+{
+  margin-top: 0px;
+  align-items: center;
+}
+.txtarea
+{
+  margin-top: 20px;
+  text-align: center;
+}
+
+
+
+
+
+
+
