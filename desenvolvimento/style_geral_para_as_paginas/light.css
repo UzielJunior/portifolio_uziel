@@ -4,7 +4,14 @@ body.light
   background-color: #F8f8f8;
   color:#181818;
 }
-.light .projetos
+.light .projetos-imersaoDev 
+{
+border-radius: 5px;
+background-color: #ffffff;
+box-shadow: none;
+border: 2px solid #17171715;
+}
+.light .projetos-CursoEmVideo 
 {
 border-radius: 5px;
 background-color: #ffffff;
@@ -18,26 +25,29 @@ border: 2px solid #17171715;
 }
 .light .social-link 
 {
- border-radius: 5px;
- background-color: #ffffff;
- box-shadow: none;
- border: 2px solid #17171715;
+  border-radius: 5px;
+  background-color: #ffffff;
+  box-shadow: none;
+  border: 2px solid #17171715;
 }
 .light i 
 {
-color: #171717;
+  color: #171717;
 }
 .light .social-link:hover 
 {
-  background-color: linear-gradient(to right, #f43b47 0%, #453a94 100%);;
-  border: 2px solid linear-gradient(to right, #f43b47 0%, #453a94 100%);;
+  background-color: linear-gradient(to right, #f43b47 0%, #453a94 100%);
+  border: 1px solid #ca2323;
+
+  background-color: linear-gradient(to right, #f43b47 0%, #453a94 100%);
+  
 }
 .light a {
   color: linear-gradient(to right, #f43b47 0%, #453a94 100%);
 }
 .light .projeto-a 
 {
-color: #F8f8f8;
+  color: #F8f8f8;
 }
 
 .light #back-to-top

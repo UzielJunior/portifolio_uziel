@@ -6,9 +6,9 @@ footer p {
   font-size: 0.9rem;
 }
 footer a {
-  color: #336060;
+  color:  #c8232e ;
 }
 footer a:hover {
-  color: #5d8973;
+  color:  linear-gradient(to right, #f43b47 0%, #453a94 100%);;
   transition: 0.3s;
 }

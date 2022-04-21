@@ -18,7 +18,7 @@
 }
 body 
 {
-  background: #171717;
+  background: rgb(23, 23, 23);
   color: #F9f9f9;
   font-family: 'Montserrat', sans-serif;
   transition: background 0.2s linear;

@@ -30,6 +30,7 @@
 }
 .projetos-imersaoDev a 
 {
+  color: aliceblue;
   margin-top: 10px;
   background-color: rgb(29, 29, 29);
   display: inline-block;
@@ -107,8 +108,9 @@
 }
 .projetos-CursoEmVideo a 
 {
+  color: aliceblue;
   margin-top: 10px;
-  background-color: rgb(29, 29, 29);
+  background-color: rgb(35, 35, 35);
   display: inline-block;
   padding: 10px;
   text-align: center;
@@ -151,7 +153,6 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-
 
 
 

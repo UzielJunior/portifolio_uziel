@@ -5,19 +5,18 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-:root {
-
-    --bod: #222327;
-    --backCardDia: linear-gradient(126.85deg, #e6d111 27.26%, #b7731f 76.03%);
-    --backCardNoite: linear-gradient(336.85deg, #210d47 17.26%, #093347 56.03%);
-    --backCardTarde: linear-gradient(336.85deg, #8d2e2e 17.26%, #c1c139 76.03%); 
+:root 
+{
+  --bod: #222327;
+  --backCardDia: linear-gradient(126.85deg, #e6d111 27.26%, #b7731f 76.03%);
+  --backCardNoite: linear-gradient(336.85deg, #210d47 17.26%, #093347 56.03%);
+  --backCardTarde: linear-gradient(336.85deg, #8d2e2e 17.26%, #c1c139 76.03%); 
 }
 h4
 {
   text-align: center;
   font: bold 2.7rem/1.1 'Montserrat', sans-serif;
-  background: linear-gradient(to right, #5D8973 0%, #1A4855 100%);
+  background: linear-gradient(to right, #f43b47 0%, #453a94 100%);;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   padding: 20px;
@@ -25,14 +24,13 @@ h4
 .project 
 {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;/*adicionar objetos lado a lado no grid*/
+  grid-template-columns: 1fr 1fr 1fr;
   justify-items: center;
 }
-
 h5
 {
   font: bold 1.5rem/1.1 'Montserrat', sans-serif;
-  background: linear-gradient(to right, #5D8973 0%, #1A4855 100%);
+  background: linear-gradient(to right, #f43b47 0%, #453a94 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -45,13 +43,11 @@ h5
   padding: 10px 20px;
   font-size: 16px;
   background: rgba(0, 0, 0, 0.2);
-  border: 2px solid #1A4855;
+  border: 2px solid #812f98;
   color: aliceblue;
   font-family: 'Montserrat', sans-serif;
   cursor: pointer;
 }
-
-
 .card
 {
   text-align: center;
@@ -62,33 +58,36 @@ h5
   box-shadow: 3px 3px 10px rgb(0, 0, 0, 363);
   margin: auto;
 }
-
+.infoHoras
+{
+  font: bold 1.4rem/1.1 'Montserrat', sans-serif;
+}
 .foto 
 {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 .saudação
 {
-    margin-top: 25px;
+  font: bold 1.4rem/1.1 'Montserrat', sans-serif;
+  margin-top: 20px;
 }
 footer
 {
-    color: aliceblue;
-    text-align: center;
-    font-style: italic;
+  color: aliceblue;
+  text-align: center;
+  font-style: italic;
 }
-
 div#infoHoras
 {
-    text-align: center;
-    margin-top: 10px;
+  text-align: center;
+  margin-top: 10px;
 }
-
 div#saudação 
 {
-    text-align: center;
-    
+  text-align: center;  
 }
+
+
 
 
 

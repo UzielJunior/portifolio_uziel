@@ -17,7 +17,7 @@ h4
 {
   text-align: center;
   font: bold 2.7rem/1.1 'Montserrat', sans-serif;
-  background: linear-gradient(to right, #5D8973 0%, #1A4855 100%);
+  background: linear-gradient(to right, #f43b47 0%, #453a94 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   padding: 20px;
@@ -26,7 +26,7 @@ h4
 h5
 {
   font: bold 1.5rem/1.1 'Montserrat', sans-serif;
-  background: linear-gradient(to right, #5D8973 0%, #1A4855 100%);
+  background: linear-gradient(to right, #f43b47 0%, #453a94 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -39,7 +39,7 @@ h5
   padding: 10px 20px;
   font-size: 16px;
   background: rgba(0, 0, 0, 0.2);
-  border: 2px solid #1A4855;
+  border: 2px solid #812f98;
   color: aliceblue;
   font-family: 'Montserrat', sans-serif;
   cursor: pointer;
@@ -49,7 +49,7 @@ h5
 {
   margin-top: 20px;
   font: bold 1.5rem/1.1 'Montserrat', sans-serif;
-  background: linear-gradient(to right, #5D8973 0%, #1A4855 100%);
+  background: linear-gradient(to right, #d71e2b 20%, #2a1b99 80%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -60,7 +60,7 @@ h5
 }
 .formulario
 {
-  border: 1.3px solid #5D8973;
+  border: 1.5px solid #812f98;
   border-radius: 10px;
   color: black;
   background: #ffffff;
@@ -143,7 +143,7 @@ fieldset.grupo .campo
   padding: 10px 20px;
   font: bold 1rem/1.1 'Montserrat', sans-serif;
   background: rgb(31, 29, 29);
-  border: 3px solid #1A4855;
+  border: 2px solid #812f98;
   color: rgb(255, 255, 255);
   font-family: 'Montserrat', sans-serif;
   cursor: pointer;

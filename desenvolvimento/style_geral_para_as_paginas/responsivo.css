@@ -1,64 +1,83 @@
-@media (max-width:1000px) {
-  .projeto-container {
+
+@media (max-width:1000px) 
+{
+  .projeto-container 
+  {
    display: grid;
    grid-template-columns: 1fr 1fr;
   }
-  .sub, .sub-titulo {
+  .sub, .sub-titulo 
+  {
    padding-left: 30px;
   }
-  .social {
+  .social 
+  {
    justify-content: center;
   }
   }
   
-  @media (max-width:500px) {
-  .header {
+  @media (max-width:500px) 
+  {
+  .header 
+  {
    flex-direction: column;
    gap: 30px;
   }
-  .menu a {
+  .menu a 
+  {
    width: 150px;
    text-align: center;
    background-color: #000;
    padding: 10px 15px;
    border-radius: 5px;
   }
-  .menu a:hover {
+  .menu a:hover 
+  {
    background: #2e2e2e;
   }
-  .menu a::after {
+  .menu a::after 
+  {
    display: none;
   }
-  .home {
+  .home 
+  {
    font-size: 2rem;
   }
-  .light .menu a {
+  .light .menu a 
+  {
    background-color: #fff;
   }
-  .light .menu a:hover {
+  .light .menu a:hover 
+  {
    background: rgba(255, 255, 255, 0.486);
   }
-  .projeto-container {
+  .projeto-container 
+  {
    display: grid;
    grid-template-columns: 1fr;
   }
-  .sub {
+  .sub 
+  {
    font-size: 0.9rem;
   }
-  .social {
+  .social 
+  {
    align-content: center;
    justify-content: center;
    padding-bottom: 60px;
   }
-  .social-link {
+  .social-link 
+  {
    align-items: center;
   }
-  h1 {
+  h1 
+  {
     padding-left: 10px;
     padding-right: 10px;
     font-size: 2rem;
   }
-  .desc {
+  .desc 
+  {
     padding-left: 20px;
     padding-right: 20px;
   }
@@ -66,10 +85,12 @@
     padding-left: 30px;
     padding-right: 30px;
   }
-  footer a {
+  footer a 
+  {
     font-size: 0.8rem;
   }
-  footer p {
+  footer p 
+  {
     font-size: 0.8rem;
     margin-bottom: 10px;
   }
