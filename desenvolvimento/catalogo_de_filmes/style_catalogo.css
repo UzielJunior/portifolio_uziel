@@ -1,0 +1,168 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Creepster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* 
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+img 
+{
+  max-height: 230px;
+  width: 172px;
+}
+li 
+{
+  position: relative;
+  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  text-align: center;
+}
+ul 
+{
+  display: flex;
+  justify-items: center;
+  gap: 45px 40px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+span 
+{
+  max-height: 230px;
+  width: 172px;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: "Poppins";
+  display: flex;
+  flex-direction: column;
+  background-color: #a00404; 
+  margin-left: 0px;
+  margin-top: -5px;
+}
+.container 
+{
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+h4
+{
+  background-image: linear-gradient(to right, #f43b47 0%, #453a94 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  line-height: 1.5;
+  font-size: 2.3rem;
+}
+.form 
+{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: block;
+}
+.form p 
+{
+  color: #fff;
+  font-family: "Poppins";
+  padding: 20px;
+}
+input:first-child 
+{
+  margin-right: 20px;
+}
+input 
+{
+  margin-top: -20px;
+  padding: 15px 20px;
+  text-align: center;
+  border-radius: 4px;
+  background-color: #00000000;
+  color: #fff;
+  border: none;
+  background-color: #000000;
+  border: 2px solid #000000;
+}
+input:focus
+ {
+  outline: none;
+  background-color: #00000005;
+  border: 2px solid #e80f0f;
+}
+input::placeholder {
+  color: rgb(216, 216, 216);
+}
+.btnAdicionar 
+{
+  background-color: #e80f0f;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.card
+{
+  margin-top: 20px;
+  font-size: 0px;
+}
+.card:hover
+{
+  transform: scale(1.20, 1.20);
+}
+.ancoraLink 
+{
+  text-align: center; 
+  width: 200px; 
+  border: 0;  
+  color: #ffffff;
+  background: #a00404; 
+  font-weight: bold; 
+  padding: 10px 60px; 
+  font-size: 16px;
+  cursor: pointer; 
+  transition: 0.3s; 
+  text-decoration: none;
+}
+#filmeNome span
+{
+  background: #cf0e0e; 
+}
+.sub-titulo
+{
+  text-align: left;
+}
+.sub
+{
+  text-align: left;
+}
+
+@media (max-width: 600px) 
+{
+  body 
+  {
+    background-size: auto;
+    background-position: left;
+  }
+  ul 
+  {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  .container 
+  {
+    width: 100%;
+  }
+  input 
+  {
+    padding: 15px 10px;
+    border: 2px solid #222222;
+  }
+}

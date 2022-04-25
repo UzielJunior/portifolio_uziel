@@ -23,21 +23,17 @@ function Inserir()
     {
         window.alert('[ERRO] Existem campos vazios, preencha todos os campos!')
         document.getElementById("txtvalor").value = "";
-    }  
-    
+    }   
     else if (array.indexOf(valor) in array)
     {
         document.getElementById("txtvalor").value = "";
         document.getElementById('resultados').style.visibility = 'visible';
         avisoInfo.innerHTML = 'Valor ja cadastrado'
-        
     }
-
     else
     {
        if (valor > 100)
        { 
-            
             document.getElementById("txtvalor").value = "";
             document.getElementById('resultados').style.visibility = 'visible';
             avisoInfo.innerHTML = 'Valor maior que o permitido'
@@ -69,7 +65,6 @@ function Inserir()
 
 function exibirResultado()
 {       
-    
     var contagemInfo = document.getElementById('contagem')
     var maiorInfo = document.getElementById('maior')
     var menorInfo = document.getElementById('menor')
@@ -83,7 +78,6 @@ function exibirResultado()
     {
         avisoInfo.innerHTML = 'Nenhum valor foi encontrado'
     }
-
     else if (sizeArray > 0 )
     {
         avisoInfo.innerHTML = ''

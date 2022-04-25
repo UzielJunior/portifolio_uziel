@@ -1,0 +1,329 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Catalogo de filmes</title>
+
+  <script src="https://kit.fontawesome.com/3fcd0a326c.js" crossorigin="anonymous"></script>
+
+  <!--style referente a estrutura geral para o conteudo do projeto é necessario chamar a  style especifica do projeto-->
+  <link rel="stylesheet" href="../style_geral_para_as_paginas/style.css">
+
+  <!--style especifica do projeto ...OBS: lembrar do '../' para acessar a pasta style-->
+  <link rel="stylesheet" href="style_catalogo.css">
+
+</head>
+
+<body onload="carregar()">
+
+  <header class="header">
+    <a class="h1" href="https://uzieljunior.github.io/portifolio_uziel/#projetos"> <h1> @_uziel Moreira</h1> </a>
+    
+    <div>
+      <ul class="menu">
+        <li><a href="https://uzieljunior.github.io/portifolio_uziel/#projetos"><p class="menuProjetos">Projetos</p></a></li>
+        <li><a href="#redes"><p class="menuProjetos">Redes Sociais</p></a></li>
+      </ul>
+    </div>
+
+  </header>
+
+  <main class="container"> 
+
+    <h4>Catalogo de filmes</h4>
+
+      <div class="form-wrapper">
+
+        <div class="form">
+          <p id="error"></p>
+          <input type="text" id="filme" name="filme" placeholder="Insira o link da imagem">
+          <input type="text" id="nome" name="nome" placeholder="Insira o nome do Filme">
+          <input type="text" id="url" name="url" placeholder="Insira o link para download"><br><br>
+
+          <button class="btnAdicionar" onClick="adicionarFilme()">Adicionar Filme</button>
+        </div>
+
+        <div id="div_listaFilme">
+          <ul id="listaFilme">
+
+            <div class='card' id="Interrestelar">
+              <li id='filmeNome'><span> Interrestelar </span></li>
+                <li id='filmeImagem'><img src="https://br.web.img3.acsta.net/pictures/14/10/31/20/39/476171.jpg">
+                <li> 
+                <a id='ancoraLink' href="magnet:?xt=urn:btih:1B8302C5E59B36671858F9BF0A7049093E25A22F&dn=interestelar+2014+brrip+imax+blu+ray+1080p+5+1+ch+dublado+andretpf&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce" class="ancoraLink"> Baixar </a>
+                </li>
+            </div>
+
+            <div class='card' id="O_Senhor_dos_aneis">
+              <li id='filmeNome'><span>  O Senhor dos aneis</span></li>
+                <li id='filmeImagem'><img src="https://onfairy.files.wordpress.com/2021/12/cartaz.jpg?w=748">
+                <li> 
+                <a id='ancoraLink' href="magnet:?xt=urn:btih:0EECF482B747EB67BE6791003A5D497532F23775" class="ancoraLink"> Baixar </a>
+                </li>
+            </div>
+
+            <div class='card' id="O_hobbit">
+              <li id='filmeNome'><span> O hobbit</span></li>
+                <li id='filmeImagem'><img src="https://br.web.img3.acsta.net/pictures/210/571/21057125_20131112201221324.jpg">
+                <li> 
+                <a id='ancoraLink' href="magnet:?xt=urn:btih:E13B8C62C871212525A29C4A1EA68F8AAB621A3E" class="ancoraLink"> Baixar </a>
+                </li>
+            </div>
+
+            <div class='card' id="Vingadores_Ultimato">
+              <li id='filmeNome'><span> Vingadores Ultimato </span></li>
+                <li id='filmeImagem'><img src="https://lumiere-a.akamaihd.net/v1/images/690x0w_br_9e5801a5.jpeg?region=0%2C0%2C690%2C1035">
+                <li> 
+                <a id='ancoraLink' href="magnet:?xt=urn:btih:1B8302C5E59B36671858F9BF0A7049093E25A22F&dn=interestelar+2014+brrip+imax+blu+ray+1080p+5+1+ch+dublado+andretpf&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce" class="ancoraLink"> Baixar </a>
+                </li>
+            </div>
+
+            <div class='card' id="Guerra_Infinita">
+              <li id='filmeNome'><span>Guerra Infinita </span></li>
+                <li id='filmeImagem'><img src="https://img.elo7.com.br/product/zoom/1E30435/big-poster-vingadores-guerra-infinita-tamanho-90x-0-cm-lo032-poster.jpg">
+                <li> 
+                <a id='ancoraLink' href="magnet:?xt=urn:btih:6412FECBD42264A37B3E214D9C860B0A60F85BF0&dn=%7bWWW.BLUDV.COM%7d%20Vingadores%20-%20Guerra%20Infinita%20Open%20Matte%20%281080p%29%20Acesse%20o%20ORIGINAL%20WWW.BLUDV.COM&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a80%2fannounce&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2f9.rarbg.to%3a2720%2fannounce&tr=udp%3a%2f%2fexplodie.org%3a6969%2fannounce&tr=http%3a%2f%2fglotorrents.pw%3a80%2fannounce&tr=udp%3a%2f%2fp4p.arenabg.com%3a1337%2fannounce&tr=udp%3a%2f%2ftorrent.gresille.org%3a80%2fannounce&tr=udp%3a%2f%2ftracker.aletorrenty.pl%3a2710%2fannounce&tr=udp%3a%2f%2ftracker.coppersurfer.tk%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.piratepublic.com%3a1337%2fannounce" class="ancoraLink"> Baixar </a>
+                </li>
+            </div>
+
+            <div class='card' id="BACURAU">
+              <li id='filmeNome'><span> BACURAU </span></li>
+                <li id='filmeImagem'><img src="https://br.web.img3.acsta.net/pictures/19/07/23/23/24/0636548.jpg">
+                <li> 
+                <a id='ancoraLink' href="magnet:?xt=urn:btih:a67e89b03cb169e9db39748ce63792d5f8553bc3&dn=COMANDOTORRENTSHD.NET.Bacurau.2019.PORTUGUESE.1080p.WEBRip.x264-VXT&tr=http%3A%2F%2Ftracker.trackerfix.com%3A80%2Fannounce&tr=udp%3A%2F%2F9.rarbg.me%3A2760&tr=udp%3A%2F%2F9.rarbg.to%3A2720" class="ancoraLink"> Baixar </a>
+                </li>
+            </div>
+
+            <div class='card' id="Blade_Runner_2049">
+              <li id='filmeNome'><span>Blade Runner 2049</span></li>
+                <li id='filmeImagem'><img src="https://img.elo7.com.br/product/zoom/264E937/big-poster-filme-blade-runner-2049-lo001-tamanho-90x60-cm-poster-de-filme.jpg">
+                <li> 
+                <a id='ancoraLink' href="magnet:?xt=urn:btih:2587BE29E4BE01A1D75A60A99B044C8411A2871B&dn=Blade%20Runner%202049%202017%20%281080p%29%20WWW.BLUDV.COM&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a80%2fannounce&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2f9.rarbg.to%3a2770%2fannounce&tr=udp%3a%2f%2fexplodie.org%3a6969%2fannounce&tr=http%3a%2f%2fglotorrents.pw%3a80%2fannounce&tr=udp%3a%2f%2fp4p.arenabg.com%3a1337%2fannounce&tr=udp%3a%2f%2ftorrent.gresille.org%3a80%2fannounce&tr=udp%3a%2f%2ftracker.aletorrenty.pl%3a2710%2fannounce&tr=udp%3a%2f%2ftracker.coppersurfer.tk%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.piratepublic.com%3a1337%2fannounce" class="ancoraLink"> Baixar </a>
+                </li>
+            </div>
+
+            <div class='card' id="PANTERA_NEGRA">
+              <li id='filmeNome'><span>PANTERA NEGRA</span></li>
+                <li id='filmeImagem'><img src="https://img.elo7.com.br/product/zoom/1D1DA26/poster-marvel-pantera-negra-lo002-tamanho-90-x-0-cm-decoracao-geek.jpg">
+                <li> 
+                <a id='ancoraLink' href="magnet:?xt=urn:btih:f03966b4f462acae056fea1e6444d357afd9af4a" class="ancoraLink"> Baixar </a>
+                </li>
+            </div>
+
+            <div class='card' id="MATRIX">
+              <li id='filmeNome'><span>MATRIX - Trilogia</span></li>
+                <li id='filmeImagem'><img src="https://img.elo7.com.br/product/zoom/2679A7F/big-poster-filme-matrix-trilogia-lo01-tamanho-90x60-cm-presente-geek.jpg">
+                <li> 
+                <a id='ancoraLink' href="magnet:?xt=urn:btih:498DDECA847FBA8EA6BF2BF2279B89C4771742A7&dn=Trilogia%20Matrix%201999%20-%202003%20%5b1080p%5d%20WWW.BLUDV.COM&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a80%2fannounce&tr=udp%3a%2f%2ftracker.coppersurfer.tk%3a6969%2fannounce&tr=udp%3a%2f%2fglotorrents.pw%3a6969%2fannounce&tr=udp%3a%2f%2fp4p.arenabg.com%3a1337%2fannounce&tr=udp%3a%2f%2fexplodie.org%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.aletorrenty.pl%3a2710%2fannounce&tr=udp%3a%2f%2f9.rarbg.to%3a2710%2fannounce&tr=udp%3a%2f%2ftorrent.gresille.org%3a80%2fannounce&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.piratepublic.com%3a1337%2fannounce" class="ancoraLink"> Baixar </a>
+                </li>
+            </div>
+
+            <div class='card' id="Clube_dos_Cinco ">
+              <li id='filmeNome'><span>Clube dos Cinco </span></li>
+                <li id='filmeImagem'><img src="https://i.pinimg.com/originals/be/f2/69/bef269ab83a33ccd45c32e1c66a82f1a.jpg">
+                <li> 
+                <a id='ancoraLink' href="magnet:?xt=urn:btih:95A8BEE87FB1F36C445DC24CC9CF28303AAB84E3&dn=Clube%20dos%20Cinco%20%281985%29%20BluRay%20Trial%20%c3%81udio%201080p%20By-LuanHarper%20-%20MP4&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2f9.rarbg.to%3a2720%2fannounce&tr=udp%3a%2f%2fexplodie.org%3a6969%2fannounce&tr=http%3a%2f%2fglotorrents.pw%3a80%2fannounce&tr=udp%3a%2f%2ftracker.aletorrenty.pl%3a2710%2fannounce&tr=udp%3a%2f%2ftracker.coppersurfer.tk%3a6969%2fannounce" class="ancoraLink"> Baixar </a>
+                </li>
+            </div>
+
+            <div class='card' id="Coracoes_de_ferro">
+              <li id='filmeNome'><span>Corações de ferro</span></li>
+                <li id='filmeImagem'><img src="https://br.web.img3.acsta.net/pictures/14/10/28/21/28/104479.jpg">
+                <li> 
+                <a id='ancoraLink' href="magnet:?xt=urn:btih:0030652307B13D07476B6A08BEF2930E90900CA6&dn=Cora%c3%a7%c3%b5es.de.Ferro.2015.720p.Dual-WOLVERDONFIMES.COM" class="ancoraLink"> Baixar </a>
+                </li>
+            </div>
+
+            <div class='card' id="Bastardos_Inglorios">
+              <li id='filmeNome'><span>Bastardos Inglorios</span></li>
+                <li id='filmeImagem'><img src="https://uauposters.com.br/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/1/5/157720140525-uau-posters-filmes-bastardos-inglorios--inglourious-basterds-5-2.jpg">
+                <li> 
+                <a id='ancoraLink' href="magnet:?xt=urn:btih:efe36c55ffb12bdf4748008666cc612d715eb931" class="ancoraLink"> Baixar </a>
+                </li>
+            </div>
+
+            <div class='card' id="007_Sem_tempo_para_morrer">
+              <li id='filmeNome'><span>007 No Time To Die</span></li>
+                <li id='filmeImagem'><img src="https://upload.wikimedia.org/wikipedia/pt/5/52/No_Time_to_Die.jpg">
+                <li> 
+                <a id='ancoraLink' href="magnet:?xt=urn:btih:26B65DD3C2FD77C3E69A5F4341206EBA1550E686&dn=007.Sem.Tempo.para.Morrer.2021.1080p.WEB-DL.DUAL-THEPIRATEFILMES4K.ORG&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a80%2fannounce&tr=udp%3a%2f%2ftracker.publicbt.com%3a80%2fannounce&tr=udp%3a%2f%2ftracker.internetwarriors.net%3a1337%2fannounce&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2fexodus.desync.com%3a6969%2fannounce&tr=udp%3a%2f%2fopen.stealth.si%3a80%2fannounce&tr=udp%3a%2f%2fwww.torrent.eu.org%3a451%2fannounce" class="ancoraLink"> Baixar </a>
+                </li>
+            </div>
+
+            <div class='card' id="Trilogia_Batman">
+              <li id='filmeNome'><span>Trilogia - Batman</span></li>
+                <li id='filmeImagem'><img src="https://img.elo7.com.br/product/original/264FCC6/big-poster-filme-batman-o-cavaleiro-das-trevas-lo02-90x60-cm-batman.jpg">
+                <li> 
+                <a id='ancoraLink' href="magnet:?xt=urn:btih:C9E12910F835903F67D35BCF7F5B568A11B1D6CA&dn=Trilogia%20Cavaleiro%20das%20Trevas%201080p%20%282005%20-%202012%29%20Dual%20%c3%81udio%20BluRay%205.1%20--%20By%20-%20Lucas%20Firmo&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a80%2fannounce&tr=udp%3a%2f%2ftracker.publicbt.com%3a80%2fannounce&tr=udp%3a%2f%2ftracker.ccc.de%3a80%2fannounce" class="ancoraLink"> Baixar </a>
+                </li>
+            </div>
+
+            <div class='card' id="Wall_e">
+              <li id='filmeNome'><span>Wall-e</span></li>
+                <li id='filmeImagem'><img src="https://uauposters.com.br/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/2/3/230120140608-uau-posters-filmes-infantis-animacao-wall-e-wall-e--5.jpg">
+                <li> 
+                <a id='ancoraLink' href="magnet:?xt=urn:btih:500f6656d04851cb0fd222e53770b1376b17638b" class="ancoraLink"> Baixar </a>
+                </li>
+            </div>
+
+            <div class='card' id="juntos_e_misturados">
+              <li id='filmeNome'><span>juntos e misturados</span></li>
+                <li id='filmeImagem'><img src="https://i.pinimg.com/736x/96/5c/ab/965cabecbf069707f887b4a33c4bb74d--terry-crews-terry-oquinn.jpg">
+                <li> 
+                <a id='ancoraLink' href="magnet:?xt=urn:btih:bf89e8a72ac23f916e33a9418f051dbe6e8dc3e0&dn=Juntos+e+Misturados+%282014%29+BRrip+720p+Dublado+-+AndreTPF&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.istole.it%3A6969&tr=udp%3A%2F%2Fopen.demonii.com%3A1337" class="ancoraLink"> Baixar </a>
+                </li>
+            </div>
+
+            <div class='card' id="jogos_vorazes">
+              <li id='filmeNome'><span>Jogos Vorazes I</span></li>
+                <li id='filmeImagem'><img src="https://jpimg.com.br/uploads/2017/04/2009779423-poster-de-katniss-664x1024.jpg">
+                <li> 
+                <a id='ancoraLink' href="magnet:?xt=urn:btih:015380B6AFA40FDE80C73E58591DBCF6804CADC1&dn=Jogos%20Vorazes%20%282012%29%20BDRip%201080p%205.1%20CH%20Dublado%20-%20The%20Pirate%20Filmes&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a80&tr=udp%3a%2f%2ftracker.publicbt.com%3a80&tr=udp%3a%2f%2ftracker.istole.it%3a6969&tr=udp%3a%2f%2ftracker.ccc.de%3a80&tr=udp%3a%2f%2fopen.demonii.com%3a1337" class="ancoraLink"> Baixar </a>
+                </li>
+            </div>
+
+            <div class='card' id="jogos_vorazes_em_chamas">
+              <li id='filmeNome'><span>Jogos Vorazes II</span></li>
+                <li id='filmeImagem'><img src="https://br.web.img2.acsta.net/pictures/210/473/21047331_201310071632457.jpg">
+                <li> 
+                <a id='ancoraLink' href="magnet:?xt=urn:btih:FDFE68F6450BD6E938D71463A6A8ECD7DE63C303&dn=Jogos%20Vorazes%20Em%20Chamas%20%282013%29%20BDRip%201080p%205.1%20Dublado%20-%20The%20Pirate%20Filmes&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a80&tr=udp%3a%2f%2ftracker.publicbt.com%3a80&tr=udp%3a%2f%2ftracker.istole.it%3a6969&tr=udp%3a%2f%2ftracker.ccc.de%3a80&tr=udp%3a%2f%2fopen.demonii.com%3a1337" class="ancoraLink"> Baixar </a>
+                </li>
+            </div>
+
+            <div class='card' id="jogos_vorazes_Esperança_parte1">
+              <li id='filmeNome'><span>Jogos Vorazes III</span></li>
+                <li id='filmeImagem'><img src="https://s2.glbimg.com/NG1JK5RbLmmRsraMUhq_jCd60No=/362x536/https://s2.glbimg.com/UEt1JH0Y_M5suC_wRqZ09QQ5Md4=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2021/V/a/lnqA0MTIC6RXiDjjaImA/2021-2358-jogos-vorazes-a-esperanca-1-poster-globoplay.jpg">
+                <li> 
+                <a id='ancoraLink' href="magnet:?xt=urn:btih:BAA1A76CA1EAE1227410381083C66145AE141FC3&dn=Jogos%20Vorazes%20-%20A%20Esperan%c3%a7a%20-%20Parte%201%20%282014%29%20BRrip%20Blu-Ray%201080p%205.1%20Ch%20Dublado%20-%20AndreTPF&tr=udp%3a%2f%2fopen.demonii.com%3a1337%2fannounce" class="ancoraLink"> Baixar </a>
+                </li>
+            </div>
+
+            <div class='card' id="jogos_vorazes_Esperança_parte2">
+              <li id='filmeNome'><span>Jogos Vorazes IV</span></li>
+                <li id='filmeImagem'><img src="https://br.web.img2.acsta.net/pictures/15/12/07/20/58/133341.jpg">
+                <li> 
+                <a id='ancoraLink' href="magnet:?xt=urn:btih:71ad94063363e7fbe1d39ce3d32223bb82adba0c" class="ancoraLink"> Baixar </a>
+                </li>
+            </div>
+          </ul><!--lista de Filmes-->
+        </div><!--div_listaFilme-->
+      </div><!--form-wrapper-->
+    
+    <div id="redes">
+      <br>
+      <p class="sub">Me siga nas Redes Sociais.</p>
+      <h2 class="sub-titulo">Redes Sociais</h2>
+    
+      <div class="social">
+        <div class="social-link">
+          <a href="https://github.com/UzielJunior" target="_blank" rel="external"> <i class="fa-brands fa-github"></i>
+            <br><br>GitHub
+          </a>
+        </div>
+        <div class="social-link">
+          <a href="https://codepen.io/UzielJunior" target="_blank" rel="external"><i class="fa-brands fa-codepen" ></i><br><br> CodePen</a>
+        </div>
+        <div class="social-link">
+          <a href="https://www.linkedin.com/in/uziel-moreira-dos-santos-507634199/" target="_blank" rel="external"><i class="fa-brands fa-linkedin-in" width="50" height="50"></i><br><br>LinkedIn</a>
+        </div>
+        <div class="social-link">
+          <a href="https://usielmorreira@gmail.com" target="_blank" rel="external">          
+            <i class="fa-solid fa-envelope" width="50" height="50"></i><br><br>Gmail</a>
+        </div>
+        <div class="social-link">
+          <a href="https://wa.me/qr/7PGUIXZP7QFIK1" target="_blank" rel="external">
+            <i class="fa-brands fa-whatsapp" width="50" height="50"></i><br><br>Whatsapp</a>
+        </div><!--social-link-->
+      </div><!--social-->
+   </div><!--redes-->
+
+    <div id="back-to-top">
+      <i class="fas fa-arrow-up"></i>
+    </div>
+
+  </main>
+
+  <footer>
+    <p>Desenvolvido por <a href="https://uzieljunior.github.io/portifolio_uziel/#projetos">@uziel.</a><br>® Copyright 2022. Todos os Direitos Reservados.</p>
+  </footer>
+
+  <!--É necessario o script da pagina inicial por ele ser o da interatividade padrao da estrutura da pagina-->
+  <script src="../script_paginaInicial.js"></script>
+
+  <!--Aqui e chamado o script do referido projeto-->
+  <script src="script_catalogo_de_filmes.js"></script>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
